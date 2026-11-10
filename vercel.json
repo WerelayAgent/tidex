@@ -1,5 +1,6 @@
 {
-  "cleanUrls": true,
+  "version": 2,
+  "outputDirectory": ".",
   "rewrites": [
     { "source": "/api/(.*)", "destination": "https://www.tidewellfi.app/api/$1" },
     { "source": "/app", "destination": "/app.html" },
