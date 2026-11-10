@@ -1,0 +1,15 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://www.tidewellfi.app/api/$1" },
+    { "source": "/app", "destination": "/app.html" },
+    { "source": "/liquidity", "destination": "/liquidity.html" },
+    { "source": "/dashboard", "destination": "/dashboard.html" },
+    { "source": "/markets", "destination": "/markets.html" },
+    { "source": "/referrals", "destination": "/referrals.html" },
+    { "source": "/roadmap", "destination": "/roadmap.html" },
+    { "source": "/staking", "destination": "/staking.html" },
+    { "source": "/token", "destination": "/token.html" },
+    { "source": "/whitepaper", "destination": "/whitepaper.html" }
+  ]
+}
